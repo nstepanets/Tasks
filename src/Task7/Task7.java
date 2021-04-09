@@ -1,3 +1,5 @@
+package Task7;
+
 public class Task7 {
 
     public static int doubleInteger(int i) {
