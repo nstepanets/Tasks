@@ -8,6 +8,16 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "salary=" + salary +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                '}';
+    }
+
     public boolean isSameName(Employee employee) {
         return this.name.equals(employee.name);
     }
